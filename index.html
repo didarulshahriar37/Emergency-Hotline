@@ -29,16 +29,16 @@
         <div class="flex flex-col gap-[10px] md:flex-row md:gap-[20px]">
             <div
                 class="bg-[#41ff6b1a] p-[16px] rounded-[50px] w-[90px] h-[52px] flex justify-center items-center gap-[10px]">
-                <p class="font-bold">0</p>
+                <p id="heart-count" class="font-bold">0</p>
                 <img class="w-[30px] h-[30px]" src="./assets/heart.png" alt="">
             </div>
             <div
                 class="bg-[#41ff6b1a] p-[16px] rounded-[50px] w-[90px] h-[52px] flex justify-center items-center gap-[10px]">
-                <p class="font-bold">100</p>
+                <p id="coin-count" class="font-bold">100</p>
                 <img class="w-[30px] h-[30px]" src="./assets/coin.png" alt="">
             </div>
             <div class="bg-[#00a63e] p-[14px] rounded-[50px] w-[90px] h-[52px] flex justify-center">
-                <p class="text-white font-semibold"><span>0</span> Copy</p>
+                <p class="text-white font-semibold"><span id="copy-count">0</span> Copy</p>
             </div>
         </div>
     </div>
@@ -64,27 +64,27 @@
                             <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
+                            <i class="heart-icon fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
                         <div class="mb-[24px]">
-                            <h2 class="font-bold">National Emergency Number</h1>
+                            <h2 id="emergency-name" class="font-bold">National Emergency Number</h1>
                                 <p>National Emergency</p>
                         </div>
                         <div class="mb-[24px]">
-                            <h1 class="font-bold text-xl">999</h1>
+                            <h1 id="emergency-number" class="font-bold text-xl">999</h1>
                             <div class="bg-[#f2f2f2] rounded-4xl w-[53px] h-[37px]">
                                 <p class="px-[16px] py-[6px]">All</p>
                             </div>
                         </div>
                         <div class="flex justify-between gap-[8px]">
                             <div>
-                                <button type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
+                                <button id="emergency-copy-btn" type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button"
+                                <button id="emergency-call-btn" type="button"
                                     class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
@@ -97,27 +97,27 @@
                             <img class="w-[32px] h-[32px]" src="./assets/police.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
+                            <i class="heart-icon fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
                         <div class="mb-[24px]">
-                            <h2 class="font-bold">Police Helpline Number</h1>
+                            <h2 id="police-name" class="font-bold">Police Helpline Number</h1>
                                 <p>Police</p>
                         </div>
-                        <div class="my-[16px]">
-                            <h1 class="font-bold text-xl">999</h1>
+                        <div class="mb-[24px]">
+                            <h1 id="police-number" class="font-bold text-xl">999</h1>
                             <div class="bg-[#f2f2f2] rounded-4xl w-[75px] h-[37px]">
                                 <p class="px-[16px] py-[6px]">Police</p>
                             </div>
                         </div>
                         <div class="flex justify-between gap-[8px]">
                             <div>
-                                <button type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
+                                <button id="police-copy-btn" type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button"
+                                <button id="police-call-btn" type="button"
                                     class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
@@ -130,27 +130,27 @@
                             <img class="w-[32px] h-[32px]" src="./assets/fire-service.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
+                            <i class="heart-icon fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
                         <div class="mb-[24px]">
-                            <h2 class="font-bold">Fire Service Number</h1>
+                            <h2 id="fire-name" class="font-bold">Fire Service Number</h1>
                                 <p>Fire Service</p>
                         </div>
                         <div class="mb-[24px]">
-                            <h1 class="font-bold text-xl">999</h1>
+                            <h1 id="fire-number" class="font-bold text-xl">999</h1>
                             <div class="bg-[#f2f2f2] rounded-4xl w-[53px] h-[37px]">
                                 <p class="px-[16px] py-[6px]">Fire</p>
                             </div>
                         </div>
                         <div class="flex justify-between gap-[8px]">
                             <div>
-                                <button type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
+                                <button id="fire-copy-btn" type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button"
+                                <button id="fire-call-btn" type="button"
                                     class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
@@ -163,27 +163,27 @@
                             <img class="w-[32px] h-[32px]" src="./assets/ambulance.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
+                            <i class="heart-icon fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
                         <div class="mb-[24px]">
-                            <h2 class="font-bold">Ambulance Service</h1>
+                            <h2 id="ambulance-name" class="font-bold">Ambulance Service</h1>
                                 <p>Ambulance</p>
                         </div>
                         <div class="mb-[24px]">
-                            <h1 class="font-bold text-xl">1994-999999</h1>
+                            <h1 id="ambulance-number" class="font-bold text-xl">1994-999999</h1>
                             <div class="bg-[#f2f2f2] rounded-4xl w-[80px] h-[37px]">
                                 <p class="px-[16px] py-[6px]">Health</p>
                             </div>
                         </div>
                         <div class="flex justify-between gap-[8px]">
                             <div>
-                                <button type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
+                                <button type="submit" id="ambulance-copy-btn" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button"
+                                <button id="ambulance-call-btn" type="button"
                                     class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
@@ -196,27 +196,27 @@
                             <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
+                            <i class="heart-icon fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
                         <div class="mb-[24px]">
-                            <h2 class="font-bold">Women & Child Helpline</h1>
+                            <h2 id="child-name" class="font-bold">Women & Child Helpline</h1>
                                 <p>Women & Child Helpline</p>
                         </div>
                         <div class="mb-[24px]">
-                            <h1 class="font-bold text-xl">109</h1>
+                            <h1 id="child-number" class="font-bold text-xl">109</h1>
                             <div class="bg-[#f2f2f2] rounded-4xl w-[65px] h-[37px]">
                                 <p class="px-[16px] py-[6px]">Help</p>
                             </div>
                         </div>
                         <div class="flex justify-between gap-[8px]">
                             <div>
-                                <button type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
+                                <button id="child-copy-btn" type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button"
+                                <button id="child-call-btn" type="button"
                                     class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
@@ -229,27 +229,27 @@
                             <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
+                            <i class="heart-icon fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
                         <div class="mb-[24px]">
-                            <h2 class="font-bold">Anti-Corruption Helpline</h1>
+                            <h2 id="dudok-name" class="font-bold">Anti-Corruption Helpline</h1>
                                 <p>Anti-Corruption</p>
                         </div>
                         <div class="mb-[24px]">
-                            <h1 class="font-bold text-xl">106</h1>
+                            <h1 id="dudok-number" class="font-bold text-xl">106</h1>
                             <div class="bg-[#f2f2f2] rounded-4xl w-[73px] h-[37px]">
                                 <p class="px-[16px] py-[6px]">Govt.</p>
                             </div>
                         </div>
                         <div class="flex justify-between gap-[8px]">
                             <div>
-                                <button type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
+                                <button id="dudok-copy-btn" type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button"
+                                <button id="dudok-call-btn" type="button"
                                     class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
@@ -262,27 +262,27 @@
                             <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
+                            <i class="heart-icon fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
                         <div class="mb-[24px]">
-                            <h2 class="font-bold">Electricity Helpline</h1>
+                            <h2 id="elec-name" class="font-bold">Electricity Helpline</h1>
                                 <p>Electricity Outage</p>
                         </div>
                         <div class="mb-[24px]">
-                            <h1 class="font-bold text-xl">16216</h1>
+                            <h1 id="elec-number" class="font-bold text-xl">16216</h1>
                             <div class="bg-[#f2f2f2] rounded-4xl w-[100px] h-[37px]">
                                 <p class="px-[16px] py-[6px]">Electricity</p>
                             </div>
                         </div>
                         <div class="flex justify-between gap-[8px]">
                             <div>
-                                <button type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
+                                <button id="elec-copy-btn" type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button"
+                                <button id="elec-call-btn" type="button"
                                     class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
@@ -295,27 +295,27 @@
                             <img class="w-[32px] h-[32px]" src="./assets/brac.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
+                            <i class="heart-icon fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
                         <div class="mb-[24px]">
-                            <h2 class="font-bold">Brac Helpline</h1>
+                            <h2 id="brac-name" class="font-bold">Brac Helpline</h1>
                                 <p>Brac</p>
                         </div>
                         <div class="mb-[24px]">
-                            <h1 class="font-bold text-xl">16445</h1>
+                            <h1 id="brac-number" class="font-bold text-xl">16445</h1>
                             <div class="bg-[#f2f2f2] rounded-4xl w-[64px] h-[37px]">
                                 <p class="px-[16px] py-[6px]">NGO</p>
                             </div>
                         </div>
                         <div class="flex justify-between gap-[8px]">
                             <div>
-                                <button type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
+                                <button id="brac-copy-btn" type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button"
+                                <button id="brac-call-btn" type="button"
                                     class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
@@ -328,27 +328,27 @@
                             <img class="w-[32px] h-[32px]" src="./assets/Bangladesh-Railway.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
+                            <i class="heart-icon fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
                         <div class="mb-[24px]">
-                            <h2 class="font-bold">Bangladesh Railway Helpline</h1>
+                            <h2 id="rail-name" class="font-bold">Bangladesh Railway Helpline</h1>
                                 <p>Bangladesh Railway</p>
                         </div>
                         <div class="mb-[24px]">
-                            <h1 class="font-bold text-xl">163</h1>
+                            <h1 id="rail-number" class="font-bold text-xl">163</h1>
                             <div class="bg-[#f2f2f2] rounded-4xl w-[75px] h-[37px]">
                                 <p class="px-[16px] py-[6px]">Travel</p>
                             </div>
                         </div>
                         <div class="flex justify-between gap-[8px]">
                             <div>
-                                <button type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
+                                <button id="rail-copy-btn" type="submit" class="btn w-[130px] h-[40px]"><i class="fa-regular fa-copy"></i>
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button"
+                                <button id="rail-call-btn" type="button"
                                     class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
@@ -364,25 +364,19 @@
                         <h1 class="font-bold"><i class="fa-regular fa-clock"></i> Call History</h1>
                     </div>
                     <div>
-                        <button type="button"
+                        <button id="clear-btn" type="button"
                             class="bg-[#00a63e] rounded-[50px] px-[15px] py-[10px] text-white hover:cursor-pointer transition suration-300 hover:bg-green-800">
                             Clear</button>
                     </div>
                 </div>
-                <div class="mt-[24px] mb-[8px]">
-                    <div class="flex justify-between items-center bg-[#fafafa] p-[16px] rounded-[8px]">
-                        <div>
-                            <h1 class="font-bold">Fire Service Number</h1>
-                            <p class="text-[#5c5c5c]">999</p>
-                        </div>
-                        <div>
-                            <p>11:36:58 AM</p>
-                        </div>
-                    </div>
+                <div id="history-container" class="mt-[24px] mb-[8px]">
+                    
                 </div>
             </div>
         </div>
     </div>
+
+    <script src="./scripts/functionalities.js"></script>
 </body>
 
 </html>
