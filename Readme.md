@@ -1,44 +1,40 @@
-1 >>
-getELementById:
-returns a single element with the given unique id.
-And,
+1 >> <br>
+**getELementById:**<br>
+returns a single element with the given unique id.<br>
+**getElementsByClassName:**<br>
+returns an array like object containing all elements with the given class name.<br><br>
 
-getElementsByClassName:
-returns an array like object containing all elements with the given class name.
+**querySelector:**<br>
+returns the first element that matches the given CSS selector.<br>
+**querySelectorAll:**<br>
+returns all elements that matches the given CSS selector.<br><br>
 
-querySelector:
-returns the first element that matches the given CSS selector.
-And,
+2 >> <br>
+**creating a new element:**<br>
+const div = document.createElement('div');<br>
 
-querySelectorAll:
-returns all elements that matches the given CSS selector.
+**inserting a new element:**<br>
+const container = document.getElementById('container');<br>
+container.appendChild(div);<br><br>
 
-2 >>
-creating a new element:
-const div = document.createElement('div');
+3 >><br>
+**Event Bubbling:** <br>
+event starting from the innermost element and moving towards the document object.<br>
 
-inserting a new element:
-const container = document.getElementById('container');
-container.appendChild(div);
+**How it works:**<br>
+If a button is clicked inside a div, the button will be triggered first, then the div, then the parent, until it reaches the document object.<br><br>
 
-3 >>
-Event Bubbling: 
-event starting from the innermost element and moving towards the document object.
-
-How it works:
-If a button is clicked inside a div, the button will be triggered first, then the div, then the parent, until it reaches the document object.
-
-4 >>
+4 >><br>
 Adding a single event listener to a parent element instead of multiple listeners on child elements.
-
+<br>
 Why it is useful:
-> No need of multiple event listeners
-> Less Memory usage
-> Less repetitive code
+> No need of multiple event listeners<br>
+> Less Memory usage<br>
+> Less repetitive code<br><br>
 
-5 >>
-preventDefault:
-prevents the default browser event (e.g. reloading after clicking a button inside a form.).
+5 >><br>
+**preventDefault:**<br>
+prevents the default browser event (e.g. reloading after clicking a button inside a form.).<br>
 
-stopPropagation:
+**stopPropagation:**<br>
 stops the event from bubbling.
