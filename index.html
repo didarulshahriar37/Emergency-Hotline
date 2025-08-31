@@ -17,7 +17,7 @@
 
 <body>
     <!-- Navbar -->
-    <div class="mx-[60px] my-[25px] flex justify-between items-center">
+    <div class="mx-[20px] md:mx-[60px] my-[15px] md:my-[25px] flex justify-between items-center">
         <div class="flex">
             <div class="w-[50px] h-[50px] rounded-full">
                 <img src="./assets/logo.png" alt="">
@@ -26,12 +26,14 @@
                 <h1 class="text-[#006747] font-extrabold ml-[10px]">Emergency<br>Service</h1>
             </div>
         </div>
-        <div class="flex gap-[20px]">
-            <div class="bg-[#41ff6b1a] p-[16px] rounded-[50px] w-[90px] h-[52px] flex justify-center items-center gap-[10px]">
+        <div class="flex flex-col gap-[10px] md:flex-row md:gap-[20px]">
+            <div
+                class="bg-[#41ff6b1a] p-[16px] rounded-[50px] w-[90px] h-[52px] flex justify-center items-center gap-[10px]">
                 <p class="font-bold">0</p>
                 <img class="w-[30px] h-[30px]" src="./assets/heart.png" alt="">
             </div>
-            <div class="bg-[#41ff6b1a] p-[16px] rounded-[50px] w-[90px] h-[52px] flex justify-center items-center gap-[10px]">
+            <div
+                class="bg-[#41ff6b1a] p-[16px] rounded-[50px] w-[90px] h-[52px] flex justify-center items-center gap-[10px]">
                 <p class="font-bold">100</p>
                 <img class="w-[30px] h-[30px]" src="./assets/coin.png" alt="">
             </div>
@@ -46,22 +48,23 @@
         <div class="flex flex-col justify-center items-center text-white">
             <img class="w-[92px] h-[92px] rounded-full" src="./assets/logo-dark.png" alt="">
             <h1 class="font-bold mt-[11px]">Emergency Service Directory</h1>
-            <p class="font-semibold mt-[11px]">Government Emergency Services at Your Fingertip – A Project by Government
+            <p class="ml-4 font-semibold mt-[11px]">Government Emergency Services at Your Fingertip – A Project by
+                Government
                 of the People’s Republic of Bangladesh</p>
         </div>
     </div>
 
     <!-- Main Body -->
-    <div class="bg-[#41ff6b1a] min-h-screen py-[48px] px-[60px]">
-        <div class="flex gap-[30px]">
-            <div class="grid grid-cols-3 gap-[20px] flex-1">
+    <div class="bg-[#41ff6b1a] min-h-screen py-[30px] md:py-[48px] px-[15px] md:px-[60px]">
+        <div class="flex flex-col md:flex-row gap-[30px]">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-[20px] flex-1">
                 <div class="bg-white p-[24px] rounded-[12px] shadow">
                     <div class="flex justify-between items-center mb-[16px]">
                         <div class="bg-[#ffe3e2] w-[60px] h-[60px] rounded-[16px] flex justify-center items-center">
                             <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
@@ -81,7 +84,8 @@
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button" class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px]"><i
+                                <button type="button"
+                                    class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
                         </div>
@@ -93,7 +97,7 @@
                             <img class="w-[32px] h-[32px]" src="./assets/police.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
@@ -113,7 +117,8 @@
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button" class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px]"><i
+                                <button type="button"
+                                    class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
                         </div>
@@ -125,7 +130,7 @@
                             <img class="w-[32px] h-[32px]" src="./assets/fire-service.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
@@ -145,7 +150,8 @@
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button" class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px]"><i
+                                <button type="button"
+                                    class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
                         </div>
@@ -157,7 +163,7 @@
                             <img class="w-[32px] h-[32px]" src="./assets/ambulance.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
@@ -177,7 +183,8 @@
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button" class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px]"><i
+                                <button type="button"
+                                    class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
                         </div>
@@ -189,7 +196,7 @@
                             <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
@@ -209,7 +216,8 @@
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button" class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px]"><i
+                                <button type="button"
+                                    class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
                         </div>
@@ -221,7 +229,7 @@
                             <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
@@ -241,7 +249,8 @@
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button" class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px]"><i
+                                <button type="button"
+                                    class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
                         </div>
@@ -253,7 +262,7 @@
                             <img class="w-[32px] h-[32px]" src="./assets/emergency.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
@@ -273,7 +282,8 @@
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button" class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px]"><i
+                                <button type="button"
+                                    class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
                         </div>
@@ -285,7 +295,7 @@
                             <img class="w-[32px] h-[32px]" src="./assets/brac.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
@@ -305,7 +315,8 @@
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button" class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px]"><i
+                                <button type="button"
+                                    class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
                         </div>
@@ -317,7 +328,7 @@
                             <img class="w-[32px] h-[32px]" src="./assets/Bangladesh-Railway.png" alt="">
                         </div>
                         <div>
-                            <i class="fa-regular fa-heart"></i>
+                            <i class="fa-regular fa-heart hover:cursor-pointer"></i>
                         </div>
                     </div>
                     <div>
@@ -337,22 +348,24 @@
                                     Copy</button>
                             </div>
                             <div>
-                                <button type="button" class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px]"><i
+                                <button type="button"
+                                    class="bg-[#00a63e] w-[130px] h-[40px] text-white rounded-[4px] hover:cursor-pointer transition suration-300 hover:bg-green-800"><i
                                         class="fa-solid fa-phone"></i> Call</button>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Call History Section -->
             </div>
+
+            <!-- Call History Section -->
             <div class="bg-white p-[24px] w-[400px] rounded-[12px] shadow">
                 <div class="flex justify-between items-center">
                     <div class="">
                         <h1 class="font-bold"><i class="fa-regular fa-clock"></i> Call History</h1>
                     </div>
                     <div>
-                        <button type="button" class="bg-[#00a63e] rounded-[50px] px-[15px] py-[10px] text-white">
+                        <button type="button"
+                            class="bg-[#00a63e] rounded-[50px] px-[15px] py-[10px] text-white hover:cursor-pointer transition suration-300 hover:bg-green-800">
                             Clear</button>
                     </div>
                 </div>
